@@ -3,7 +3,7 @@ let connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '',
-    database: 'database_express_basic',
+    database: 'mahasiswa',
 });
 
 connection.connect(function(error){
