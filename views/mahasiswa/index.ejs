@@ -31,6 +31,11 @@
                 <th scope="col">Nama</th>
                 <th scope="col">NRP</th>
                 <th scope="col">Program Studi</th>
+                <th scope="col">tgl lahir</th>
+                <th scope="col">jenis kelamin</th>
+                <th scope="col">agama</th>
+                <th scope="col">hoby</th>
+                <th scope="col">alamat</th>
                 <th colspan="2" scope="col">Aksi</th>
               </tr>
             </thead>
@@ -41,6 +46,13 @@
                 <td><%= data[i].NAMA %></td>
                 <td><%= data[i].NRP %></td>
                 <td><%= data[i].PROGRAM_STUDY %></td>
+                <td><%= data[i].TGL_LAHIR %></td>
+                <td><%= data[i].JENIS_KELAMIN %></td>
+                <td><%= data[i].AGAMA %></td>
+                <td><%= data[i].ALAMAT %></td>
+                <td><%= data[i].HOBY %></td>
+                
+
                 <td>
                   <a
                     href="/mahasiswa/edit/<%= data[i].id_mahasiswa %>"
